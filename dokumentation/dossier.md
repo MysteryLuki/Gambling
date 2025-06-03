@@ -1,17 +1,22 @@
-# Projektbeschreibung
-- Spiel: Roulette
-- Spieler anzahl: Einzelspieler
-- UI: TUI
-## Wie wird das Spiel gespielt
-Ein Spieler bekommt prompts under er kann zwischen verschiedenen Aktion wählen, wie zum Beispiel auf welche farbe der Spieler setzen möchte.
-### Beispiel Ablauf
-Der Spieler startet das Programm, er bestätigt, dass er Spielen willt, wählt aus wieviel Spielgeld er auf die Farbe Rot zum Beispiel setzen will und dann fängt die klassische Roulette animation an, das Roulette stoppt auf einer Zufälligen zahl, wenn die Zahl Rot ist, dann gewinnt der Spieler und sein Spielgeld wird verdoppelt. Danach sieht der Spieler wieviel Spielgeld er momentan hat und kann das ganze fäng wieder von Anfang an, natürlich kann der Spieler auch verlieren oder wählen, das Programm zu stoppen. Es gibt auch ein Highscore system das auf einer datei Basiert, die geschrieben wird und dein Highscore hat, übertrifft der Spieler diesen dort gespeicherten Highscore wird dem Spieler mitgeteilt, dass er den Highscore hat und der neue Highscore wird in die Datei geschrieben.
-# Wie können wir die Applikation testen
-- Black-Box-Test durchführen
-- Versuchen absichtlich einen Error zu erzeugen
-# Zeitplan
-- Kontinuierliches arbeiten am code bis 19. Juni
-- Aufteilung: 50/50
-
-
-
+# Projektbeschreibung: Roulette
+## Spielbeschreibung
+Das geplante Spiel ist eine digitale Version des klassischen Roulettes, das für Einzelspieler gemacht ist. Die Benutzeroberfläche wird als TUI gestaltet, um eine einfache Interaktion zu ermöglichen. 
+### Spielablauf
+Der Spieler startet das Programm und wird mit einem Begrüssungsbildschirm empfangen, der ihn auffordert, zu bestätigen, dass er spielen möchte. Nach der Bestätigung wählt der Spieler den Betrag an Spielgeld, den er auf eine bestimmte Farbe setzen möchte, beispielsweise Rot oder Schwarz. 
+Sobald der Einsatz platziert ist, beginnt eine animierte Darstellung des Roulette-Rades, die das Drehen und Stoppen des Rades simuliert. Das Ergebnis wird durch eine zufällige Zahl bestimmt. Wenn die gewählte Farbe mit der Zahl übereinstimmt, gewinnt der Spieler und sein Einsatz wird Spielgeld. Der Spieler erhält eine Rückmeldung über seinen aktuellen Kontostand und hat die Möglichkeit, eine neue Runde zu starten oder das Spiel zu beenden. 
+Zusätzlich wird ein Highscore System implementiert, das die besten Ergebnisse in einer Datei speichert. Wenn der Spieler einen neuen Highscore erreicht, wird er darüber informiert, und der neue Wert wird in der Datei aktualisiert.
+## Testplan
+Um die Applikation zu testen, sind folgende Tests geplant:
+- **TUI Test**: Überprüfen, ob die Menüs im Terminal richtig angeordnet sind und die Navigation funktioniert
+- **Fehlererzeugung**: Ungültige Werte eingeben und schauen, ob das fehlermanagement des Programms funktioniert.
+- **Highscore Überprüfung**: Sicherstellen, dass die Highscore-Datei den höchsten Punktestand korrekt speichert und aktualisiert.
+- **Mathematische Formeln**: Überprüfen, ob die mathematischen Formeln korrekt sind und keine Fehler enthalten.
+- **Stabilitätstest**: Langzeitspieltests durchführen, um sicherzustellen, dass das Programm stabil bleibt und keine Abstürze hat.
+## Zeitplan
+Der Zeitplan für die Entwicklung des Spiels sieht kontinuierliches Arbeiten am Code bis zum 19. Juni vor. Die Aufgabenverteilung ist gleichmässig, dass jeder 50% der Arbeit macht. 
+### Aufgabenverteilung
+- **Entwicklung der Benutzeroberfläche**: Eine Person ist verantwortlich für die Gestaltung und Implementierung der TUI, einschliesslich der Menüs und der Anzeige der Spielstände.
+- **Spielmechanik**: Eine andere Person kümmert sich um die Logik des Spiels, einschliesslich der Zufallszahlengenerierung und der Berechnung der Gewinne.
+- **Highscore-System**: Eine Person wird für die Entwicklung und Integration des Highscore-Systems verantwortlich sein, einschliesslich der Dateioperationen zum Speichern und Abrufen der Punktestände.
+- **Optimierung**: Wenn der Hauptteil des Codes geschrieben ist, werden wir beide versuchen den Code für Geschwindigkeit zu optimieren.
+- **Dokumentation**: Eine Person wird die gesamte Dokumentation des Projekts erstellen, einschliesslich der Benutzeranleitung und der technischen Spezifikationen.
