@@ -1,49 +1,5 @@
 # About the project
 Project me and MIBB were forced to do in IMS, it is written in jave (bloat) and not assembly (good).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Please donate to fix my back posture which is caused by IMS
+
+BTW, our teacher said we should do the project in terminal but now shes showing us tutorials about GUI's wtf, average IMS, wtf are we doing here.
